@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter" sans-serif;
+  background-color: #fff8f0;
+}
+h1,
+h2,
+h3 {
+  color: #190d37;
+  font-family: League Spartan;
+  font-weight: 700;
+}
+h2 {
+  font-size: 38px;
+}
+
+/* hero section */
+
+#hero {
+  display: flex;
+  max-width: 1060px;
+  margin: 0 auto;
+}
+#left {
+  width: 50%;
+}
+#phone-email {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 30px 30px 50px 0;
+  color: #000000;
+}
+#name {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #291854;
+}
+#content h1 {
+  font-family: League Spartan;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #190d37;
+}
+.big-text {
+  margin-top: 20px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #331e6a;
+}
+#content button {
+  margin-top: 15px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+#hero-image {
+  width: 50%;
+}
+#hero-image img {
+  width: 100%;
+}
+
+/* about me section */
+
+#aboutme {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+#skillslist {
+  display: flex;
+}
+
+.whatido-cards {
+  width: 33%;
+  margin-top: 20px;
+  background-color: #ffffff;
+  box-shadow: 6px 2px 25px -9px #0000001a;
+  padding: 15px;
+  border-radius: 10px;
+}
+.card2 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.whatido-subtitle {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+.whatido-description {
+  margin-top: 8px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #55206d;
+}
+
+/* my projects section */
+
+#myprojects {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.projectcard {
+  display: flex;
+  margin: 25px 0;
+}
+.aboutproject {
+  margin-left: 12px;
+}
+.projectname {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #291854;
+}
+.projectdesription {
+  margin-top: 8px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #55206d;
+}
+.projectlink {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  color: #6a87a3;
+  text-decoration: none;
+}
+
+/* prcing section */
+
+#pricing-section {
+  margin-top: 110px;
+  max-width: 1060px;
+  margin: 48 auto;
+}
+.overtitile {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #2858ff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.section-upper-content {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+#pricing-boxes {
+  display: flex;
+  margin-top: 20px;
+}
+
+.box {
+  width: 33.33%;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+}
+.service {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #2858ff;
+  margin-bottom: 8px;
+}
+.service-price {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.service-price-perpage {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #8a8a8a;
+}
+.service-description {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #8b8b8b;
+  margin-bottom: 8px;
+}
+.benefits-list {
+  list-style-type: none;
+}
+.benefits-list li {
+  margin-bottom: 8px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #666666;
+}
+
+.servicebutton {
+  width: 100%;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #2f2f2f;
+  height: 44px;
+  border: 2px solid #2f2f2f;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.servicebutton:hover {
+  cursor: pointer;
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+
+.box2 {
+  margin: 0 20px;
+  background: #ffd748;
+}
+.box2 .service {
+  color: #000000;
+}
+
+.box2 .service-price-perpage {
+  color: #00000080;
+}
+.box2 .service-description {
+  color: #00000080;
+}
+.box2 .benefits-list li {
+  color: #000000bf;
+}
+.box2 .servicebutton {
+  border: 2px solid #000000;
+  background-color: #000000;
+  color: #ffffff;
+}
+.box2 .servicebutton:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* question section */
+
+#questions {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+#questionslist {
+  margin-top: 50px;
+}
+.questioncard {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #55206d;
+  margin: 10px 2px;
+}
+.question-ans-para {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6a87a3;
+}
+
+/* footer section */
+
+#footer {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #000000;
+  width: 100%;
+  padding: 30px 0;
+  margin-top: 100px;
+}
